@@ -1,0 +1,34 @@
+button {
+  color: aliceblue;
+  /* màu sắc chữ */
+  font-style: normal;
+  /* phong cách chữ */
+  font-family: "Times New Roman", Times, serif;
+  /* phông nền chữ */
+  background-color: cornflowerblue;
+  /* màu nền */
+  text-align: center;
+  /* căn lề giữa */
+  padding: 10px 20px;
+  /* điều chỉnh kích thước */
+  margin: 0px;
+  /* độ xa giữa các button */
+  font-size: 20px;
+  /*độ lớn chữ  */
+}
+button:hover {
+  background-color: brown;
+}
+/* khi mà rê chuột vào thì hiện màu nâu */
+button:active {
+  background-color: black;
+}
+/* khi mà ấn vào thì hiện màu đen */
+h1.tieude {
+  color: crimson;
+  font-size: 30px;
+}
+/* những tiêu đề h1 của class tieude sẽ được thay đổi */
+#hinh1 {
+  height: 200px;
+}
